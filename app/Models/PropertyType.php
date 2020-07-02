@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class PropertyType extends Model
 {
-    protected $fillable = ['title', 'description'];
+    protected $fillable = ['id', 'title', 'description'];
 
     public function properties()
     {
