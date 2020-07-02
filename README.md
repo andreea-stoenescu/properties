@@ -3,8 +3,6 @@ the download script could be made faster and more efficient, but I didn't do it,
 
 I created separate tables for countries, counties and towns to allow for the 3 selects that I was planning on adding to the search page
 
-I added a small example of JS usage, when selecting the property type on the new property page. I'd like to use React components on the front-end (or Vue, but I never used Vue)
-
 When editing an existing property, my plan was to set the block_api_update on property to true, to stop the API from overwriting users' changes
 
 Another custom command would be useful, to unblock all the properties from being updated by the API, in case the users need that
