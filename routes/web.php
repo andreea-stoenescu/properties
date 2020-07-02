@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/properties', '\App\Http\Controllers\PropertyController@search')->name('search_properties');
 Route::get('/properties/new', '\App\Http\Controllers\PropertyController@new')->name('new_property');
