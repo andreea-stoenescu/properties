@@ -18,7 +18,8 @@ class Property extends Model
         'num_bedrooms',
         'num_bathrooms',
         'price',
-        'listing_type_id'
+        'listing_type_id',
+        'block_api_update'
     ];
 
     public function type()
