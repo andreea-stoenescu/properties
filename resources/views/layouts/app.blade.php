@@ -28,6 +28,9 @@
             <div class='container'>
                 @include('components.errorFragment')
             </div>
+            <div class='container mb-3'>
+                <button type="button" class='btn btn-danger backButton'>Back</button>
+            </div>
             @yield('content')
         </main>
     </div>

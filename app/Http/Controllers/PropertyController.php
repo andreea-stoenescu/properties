@@ -9,6 +9,8 @@ class PropertyController extends Controller
 {
     public function search(Request $request)
     {
+        $data['properties'] = Models\Property::paginate(10);
+        return view('properties.search')->with($data);
     }
 
     public function new()
